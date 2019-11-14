@@ -3,10 +3,7 @@
         functionalbytes/mount-lite {:mvn/version "2.1.1"}
         ring/ring-defaults {:mvn/version "0.3.2"}
         ring/ring-jetty-adapter {:mvn/version "1.7.1"}
-        compojure {:mvn/version "1.6.1" }
-        seancorfield/clj-new
-        {:git/url "https://github.com/seancorfield/clj-new"
-         :sha "492bb2e7ad7373a8b5958124a86cddc4c7a123d5"}}
+        compojure {:mvn/version "1.6.1" }}
  :aliases
  {:test {:extra-paths ["test"]
          :extra-deps {org.clojure/test.check {:mvn/version "0.10.0"}}}
