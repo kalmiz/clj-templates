@@ -18,4 +18,5 @@
              ["dev/dev.clj" (render "dev.clj" data)]
              ["src/{{sanitized}}.clj" (render "main.clj" data)]
              ["src/{{sanitized}}/config.clj" (render "config.clj" data)]
-             ["src/{{sanitized}}/handlers.clj" (render "handlers.clj" data)])))
+             ["src/{{sanitized}}/handlers.clj" (render "handlers.clj" data)]
+             ["src/{{sanitized}}/views.clj" (render "views.clj" data)])))
